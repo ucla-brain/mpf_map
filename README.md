@@ -1,8 +1,8 @@
-# Online MPF Map
+# MPF Online Map
 
 ## Build Setup
 
-```
+``` bash
 # install dependencies
 npm install
 
