@@ -23,6 +23,19 @@ def convert_tiff_to_png(input_folder):
         png_path = os.path.join(root, os.path.splitext(file)[0] + '.png')
 
         with Image.open(tiff_path) as img:
+            img = img.convert("RGBA")  # Ensure image is in RGBA mode
+            datas = img.getdata()
+
+            new_data = []
+            for item in datas:
+                # Change all white (also shades of whites)
+                # pixels to transparent
+                if item[:3] == (255, 255, 255):
+                    new_data.append((255, 255, 255, 0))
+                else:
+                    new_data.append(item)
+
+            img.putdata(new_data)
             img.save(png_path, 'PNG')
 
 if __name__ == "__main__":

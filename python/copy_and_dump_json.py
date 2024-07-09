@@ -3,6 +3,7 @@ import sys
 import shutil
 import json
 from tqdm import tqdm
+import re
 
 def copy_png_images(input_folder, output_folder):
     if not os.path.exists(output_folder):
@@ -36,23 +37,31 @@ def generate_json(output_folder, json_file_path):
     data = {}
     
     for root, _, files in os.walk(output_folder):
-        folder_name = os.path.relpath(root, output_folder).replace("\\", "/")
+        # folder_name = os.path.relpath(root, output_folder).replace("\\", "/")
         image_list = []
         for file in files:
             if file.lower().endswith('_15pct.png'):
                 # Extracting ara_level from filename
-                filename_parts = file.split('_')
-                ara_level = filename_parts[-2] if len(filename_parts) >= 2 else ""
-                ara_level_formatted = f"ARA {ara_level[3:]}" if ara_level.startswith("ara") else ara_level
-                
-                href = os.path.join(root, file).replace(output_folder, '').lstrip(os.sep).replace("\\", "/")
+                # filename_parts = file.split('_')
+                # ara_level = filename_parts[-2] if len(filename_parts) >= 2 else ""
+                # ara_level_formatted = f"ARA {ara_level[3:]}" if ara_level.startswith("ara") else ara_level
+
+                # Extract the matched group
+                match = re.search(r'-Coronal-(\d+)_', file)
+                ara_level = -1
+                if match:
+                    ara_level = str(int(match.group(1)))
+
+                href = os.path.join(root, file).replace('/Users/seitayamashita/Documents/git_next/mpf_map','')
                 image_list.append({
+                    "index": int(ara_level),
                     "href": href,
-                    "atlasLevel": ara_level_formatted
+                    "atlasLevel": f'ARA {ara_level}'
                 })
+                sorted_image_list = sorted(image_list, key=lambda x: x["index"])
         
-        if image_list:
-            data[folder_name] = image_list
+        if sorted_image_list:
+            data['image1'] = sorted_image_list
 
     with open(json_file_path, 'w') as json_file:
         json.dump(data, json_file, indent=4)
