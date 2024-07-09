@@ -1,0 +1,664 @@
+{
+    "image1": [
+        {
+            "index": 1,
+            "href": "/static/ara/ARA-Coronal-001_full_labels_15pct.png",
+            "atlasLevel": "ARA 1"
+        },
+        {
+            "index": 2,
+            "href": "/static/ara/ARA-Coronal-002_full_labels_15pct.png",
+            "atlasLevel": "ARA 2"
+        },
+        {
+            "index": 3,
+            "href": "/static/ara/ARA-Coronal-003_full_labels_15pct.png",
+            "atlasLevel": "ARA 3"
+        },
+        {
+            "index": 4,
+            "href": "/static/ara/ARA-Coronal-004_full_labels_15pct.png",
+            "atlasLevel": "ARA 4"
+        },
+        {
+            "index": 5,
+            "href": "/static/ara/ARA-Coronal-005_full_labels_15pct.png",
+            "atlasLevel": "ARA 5"
+        },
+        {
+            "index": 6,
+            "href": "/static/ara/ARA-Coronal-006_full_labels_15pct.png",
+            "atlasLevel": "ARA 6"
+        },
+        {
+            "index": 7,
+            "href": "/static/ara/ARA-Coronal-007_full_labels_15pct.png",
+            "atlasLevel": "ARA 7"
+        },
+        {
+            "index": 8,
+            "href": "/static/ara/ARA-Coronal-008_full_labels_15pct.png",
+            "atlasLevel": "ARA 8"
+        },
+        {
+            "index": 9,
+            "href": "/static/ara/ARA-Coronal-009_full_labels_15pct.png",
+            "atlasLevel": "ARA 9"
+        },
+        {
+            "index": 10,
+            "href": "/static/ara/ARA-Coronal-010_full_labels_15pct.png",
+            "atlasLevel": "ARA 10"
+        },
+        {
+            "index": 11,
+            "href": "/static/ara/ARA-Coronal-011_full_labels_15pct.png",
+            "atlasLevel": "ARA 11"
+        },
+        {
+            "index": 12,
+            "href": "/static/ara/ARA-Coronal-012_full_labels_15pct.png",
+            "atlasLevel": "ARA 12"
+        },
+        {
+            "index": 13,
+            "href": "/static/ara/ARA-Coronal-013_full_labels_15pct.png",
+            "atlasLevel": "ARA 13"
+        },
+        {
+            "index": 14,
+            "href": "/static/ara/ARA-Coronal-014_full_labels_15pct.png",
+            "atlasLevel": "ARA 14"
+        },
+        {
+            "index": 15,
+            "href": "/static/ara/ARA-Coronal-015_full_labels_15pct.png",
+            "atlasLevel": "ARA 15"
+        },
+        {
+            "index": 16,
+            "href": "/static/ara/ARA-Coronal-016_full_labels_15pct.png",
+            "atlasLevel": "ARA 16"
+        },
+        {
+            "index": 17,
+            "href": "/static/ara/ARA-Coronal-017_full_labels_15pct.png",
+            "atlasLevel": "ARA 17"
+        },
+        {
+            "index": 18,
+            "href": "/static/ara/ARA-Coronal-018_full_labels_15pct.png",
+            "atlasLevel": "ARA 18"
+        },
+        {
+            "index": 19,
+            "href": "/static/ara/ARA-Coronal-019_full_labels_15pct.png",
+            "atlasLevel": "ARA 19"
+        },
+        {
+            "index": 20,
+            "href": "/static/ara/ARA-Coronal-020_full_labels_15pct.png",
+            "atlasLevel": "ARA 20"
+        },
+        {
+            "index": 21,
+            "href": "/static/ara/ARA-Coronal-021_full_labels_15pct.png",
+            "atlasLevel": "ARA 21"
+        },
+        {
+            "index": 22,
+            "href": "/static/ara/ARA-Coronal-022_full_labels_15pct.png",
+            "atlasLevel": "ARA 22"
+        },
+        {
+            "index": 23,
+            "href": "/static/ara/ARA-Coronal-023_full_labels_15pct.png",
+            "atlasLevel": "ARA 23"
+        },
+        {
+            "index": 24,
+            "href": "/static/ara/ARA-Coronal-024_full_labels_15pct.png",
+            "atlasLevel": "ARA 24"
+        },
+        {
+            "index": 25,
+            "href": "/static/ara/ARA-Coronal-025_full_labels_15pct.png",
+            "atlasLevel": "ARA 25"
+        },
+        {
+            "index": 26,
+            "href": "/static/ara/ARA-Coronal-026_full_labels_15pct.png",
+            "atlasLevel": "ARA 26"
+        },
+        {
+            "index": 27,
+            "href": "/static/ara/ARA-Coronal-027_full_labels_15pct.png",
+            "atlasLevel": "ARA 27"
+        },
+        {
+            "index": 28,
+            "href": "/static/ara/ARA-Coronal-028_full_labels_15pct.png",
+            "atlasLevel": "ARA 28"
+        },
+        {
+            "index": 29,
+            "href": "/static/ara/ARA-Coronal-029_full_labels_15pct.png",
+            "atlasLevel": "ARA 29"
+        },
+        {
+            "index": 30,
+            "href": "/static/ara/ARA-Coronal-030_full_labels_15pct.png",
+            "atlasLevel": "ARA 30"
+        },
+        {
+            "index": 31,
+            "href": "/static/ara/ARA-Coronal-031_full_labels_15pct.png",
+            "atlasLevel": "ARA 31"
+        },
+        {
+            "index": 32,
+            "href": "/static/ara/ARA-Coronal-032_full_labels_15pct.png",
+            "atlasLevel": "ARA 32"
+        },
+        {
+            "index": 33,
+            "href": "/static/ara/ARA-Coronal-033_full_labels_15pct.png",
+            "atlasLevel": "ARA 33"
+        },
+        {
+            "index": 34,
+            "href": "/static/ara/ARA-Coronal-034_full_labels_15pct.png",
+            "atlasLevel": "ARA 34"
+        },
+        {
+            "index": 35,
+            "href": "/static/ara/ARA-Coronal-035_full_labels_15pct.png",
+            "atlasLevel": "ARA 35"
+        },
+        {
+            "index": 36,
+            "href": "/static/ara/ARA-Coronal-036_full_labels_15pct.png",
+            "atlasLevel": "ARA 36"
+        },
+        {
+            "index": 37,
+            "href": "/static/ara/ARA-Coronal-037_full_labels_15pct.png",
+            "atlasLevel": "ARA 37"
+        },
+        {
+            "index": 38,
+            "href": "/static/ara/ARA-Coronal-038_full_labels_15pct.png",
+            "atlasLevel": "ARA 38"
+        },
+        {
+            "index": 39,
+            "href": "/static/ara/ARA-Coronal-039_full_labels_15pct.png",
+            "atlasLevel": "ARA 39"
+        },
+        {
+            "index": 40,
+            "href": "/static/ara/ARA-Coronal-040_full_labels_15pct.png",
+            "atlasLevel": "ARA 40"
+        },
+        {
+            "index": 41,
+            "href": "/static/ara/ARA-Coronal-041_full_labels_15pct.png",
+            "atlasLevel": "ARA 41"
+        },
+        {
+            "index": 42,
+            "href": "/static/ara/ARA-Coronal-042_full_labels_15pct.png",
+            "atlasLevel": "ARA 42"
+        },
+        {
+            "index": 43,
+            "href": "/static/ara/ARA-Coronal-043_full_labels_15pct.png",
+            "atlasLevel": "ARA 43"
+        },
+        {
+            "index": 44,
+            "href": "/static/ara/ARA-Coronal-044_full_labels_15pct.png",
+            "atlasLevel": "ARA 44"
+        },
+        {
+            "index": 45,
+            "href": "/static/ara/ARA-Coronal-045_full_labels_15pct.png",
+            "atlasLevel": "ARA 45"
+        },
+        {
+            "index": 46,
+            "href": "/static/ara/ARA-Coronal-046_full_labels_15pct.png",
+            "atlasLevel": "ARA 46"
+        },
+        {
+            "index": 47,
+            "href": "/static/ara/ARA-Coronal-047_full_labels_15pct.png",
+            "atlasLevel": "ARA 47"
+        },
+        {
+            "index": 48,
+            "href": "/static/ara/ARA-Coronal-048_full_labels_15pct.png",
+            "atlasLevel": "ARA 48"
+        },
+        {
+            "index": 49,
+            "href": "/static/ara/ARA-Coronal-049_full_labels_15pct.png",
+            "atlasLevel": "ARA 49"
+        },
+        {
+            "index": 50,
+            "href": "/static/ara/ARA-Coronal-050_full_labels_15pct.png",
+            "atlasLevel": "ARA 50"
+        },
+        {
+            "index": 51,
+            "href": "/static/ara/ARA-Coronal-051_full_labels_15pct.png",
+            "atlasLevel": "ARA 51"
+        },
+        {
+            "index": 52,
+            "href": "/static/ara/ARA-Coronal-052_full_labels_15pct.png",
+            "atlasLevel": "ARA 52"
+        },
+        {
+            "index": 53,
+            "href": "/static/ara/ARA-Coronal-053_full_labels_15pct.png",
+            "atlasLevel": "ARA 53"
+        },
+        {
+            "index": 54,
+            "href": "/static/ara/ARA-Coronal-054_full_labels_15pct.png",
+            "atlasLevel": "ARA 54"
+        },
+        {
+            "index": 55,
+            "href": "/static/ara/ARA-Coronal-055_full_labels_15pct.png",
+            "atlasLevel": "ARA 55"
+        },
+        {
+            "index": 56,
+            "href": "/static/ara/ARA-Coronal-056_full_labels_15pct.png",
+            "atlasLevel": "ARA 56"
+        },
+        {
+            "index": 57,
+            "href": "/static/ara/ARA-Coronal-057_full_labels_15pct.png",
+            "atlasLevel": "ARA 57"
+        },
+        {
+            "index": 58,
+            "href": "/static/ara/ARA-Coronal-058_full_labels_15pct.png",
+            "atlasLevel": "ARA 58"
+        },
+        {
+            "index": 59,
+            "href": "/static/ara/ARA-Coronal-059_full_labels_15pct.png",
+            "atlasLevel": "ARA 59"
+        },
+        {
+            "index": 60,
+            "href": "/static/ara/ARA-Coronal-060_full_labels_15pct.png",
+            "atlasLevel": "ARA 60"
+        },
+        {
+            "index": 61,
+            "href": "/static/ara/ARA-Coronal-061_full_labels_15pct.png",
+            "atlasLevel": "ARA 61"
+        },
+        {
+            "index": 62,
+            "href": "/static/ara/ARA-Coronal-062_full_labels_15pct.png",
+            "atlasLevel": "ARA 62"
+        },
+        {
+            "index": 63,
+            "href": "/static/ara/ARA-Coronal-063_full_labels_15pct.png",
+            "atlasLevel": "ARA 63"
+        },
+        {
+            "index": 64,
+            "href": "/static/ara/ARA-Coronal-064_full_labels_15pct.png",
+            "atlasLevel": "ARA 64"
+        },
+        {
+            "index": 65,
+            "href": "/static/ara/ARA-Coronal-065_full_labels_15pct.png",
+            "atlasLevel": "ARA 65"
+        },
+        {
+            "index": 66,
+            "href": "/static/ara/ARA-Coronal-066_full_labels_15pct.png",
+            "atlasLevel": "ARA 66"
+        },
+        {
+            "index": 67,
+            "href": "/static/ara/ARA-Coronal-067_full_labels_15pct.png",
+            "atlasLevel": "ARA 67"
+        },
+        {
+            "index": 68,
+            "href": "/static/ara/ARA-Coronal-068_full_labels_15pct.png",
+            "atlasLevel": "ARA 68"
+        },
+        {
+            "index": 69,
+            "href": "/static/ara/ARA-Coronal-069_full_labels_15pct.png",
+            "atlasLevel": "ARA 69"
+        },
+        {
+            "index": 70,
+            "href": "/static/ara/ARA-Coronal-070_full_labels_15pct.png",
+            "atlasLevel": "ARA 70"
+        },
+        {
+            "index": 71,
+            "href": "/static/ara/ARA-Coronal-071_full_labels_15pct.png",
+            "atlasLevel": "ARA 71"
+        },
+        {
+            "index": 72,
+            "href": "/static/ara/ARA-Coronal-072_full_labels_15pct.png",
+            "atlasLevel": "ARA 72"
+        },
+        {
+            "index": 73,
+            "href": "/static/ara/ARA-Coronal-073_full_labels_15pct.png",
+            "atlasLevel": "ARA 73"
+        },
+        {
+            "index": 74,
+            "href": "/static/ara/ARA-Coronal-074_full_labels_15pct.png",
+            "atlasLevel": "ARA 74"
+        },
+        {
+            "index": 75,
+            "href": "/static/ara/ARA-Coronal-075_full_labels_15pct.png",
+            "atlasLevel": "ARA 75"
+        },
+        {
+            "index": 76,
+            "href": "/static/ara/ARA-Coronal-076_full_labels_15pct.png",
+            "atlasLevel": "ARA 76"
+        },
+        {
+            "index": 77,
+            "href": "/static/ara/ARA-Coronal-077_full_labels_15pct.png",
+            "atlasLevel": "ARA 77"
+        },
+        {
+            "index": 78,
+            "href": "/static/ara/ARA-Coronal-078_full_labels_15pct.png",
+            "atlasLevel": "ARA 78"
+        },
+        {
+            "index": 79,
+            "href": "/static/ara/ARA-Coronal-079_full_labels_15pct.png",
+            "atlasLevel": "ARA 79"
+        },
+        {
+            "index": 80,
+            "href": "/static/ara/ARA-Coronal-080_full_labels_15pct.png",
+            "atlasLevel": "ARA 80"
+        },
+        {
+            "index": 81,
+            "href": "/static/ara/ARA-Coronal-081_full_labels_15pct.png",
+            "atlasLevel": "ARA 81"
+        },
+        {
+            "index": 82,
+            "href": "/static/ara/ARA-Coronal-082_full_labels_15pct.png",
+            "atlasLevel": "ARA 82"
+        },
+        {
+            "index": 83,
+            "href": "/static/ara/ARA-Coronal-083_full_labels_15pct.png",
+            "atlasLevel": "ARA 83"
+        },
+        {
+            "index": 84,
+            "href": "/static/ara/ARA-Coronal-084_full_labels_15pct.png",
+            "atlasLevel": "ARA 84"
+        },
+        {
+            "index": 85,
+            "href": "/static/ara/ARA-Coronal-085_full_labels_15pct.png",
+            "atlasLevel": "ARA 85"
+        },
+        {
+            "index": 86,
+            "href": "/static/ara/ARA-Coronal-086_full_labels_15pct.png",
+            "atlasLevel": "ARA 86"
+        },
+        {
+            "index": 87,
+            "href": "/static/ara/ARA-Coronal-087_full_labels_15pct.png",
+            "atlasLevel": "ARA 87"
+        },
+        {
+            "index": 88,
+            "href": "/static/ara/ARA-Coronal-088_full_labels_15pct.png",
+            "atlasLevel": "ARA 88"
+        },
+        {
+            "index": 89,
+            "href": "/static/ara/ARA-Coronal-089_full_labels_15pct.png",
+            "atlasLevel": "ARA 89"
+        },
+        {
+            "index": 90,
+            "href": "/static/ara/ARA-Coronal-090_full_labels_15pct.png",
+            "atlasLevel": "ARA 90"
+        },
+        {
+            "index": 91,
+            "href": "/static/ara/ARA-Coronal-091_full_labels_15pct.png",
+            "atlasLevel": "ARA 91"
+        },
+        {
+            "index": 92,
+            "href": "/static/ara/ARA-Coronal-092_full_labels_15pct.png",
+            "atlasLevel": "ARA 92"
+        },
+        {
+            "index": 93,
+            "href": "/static/ara/ARA-Coronal-093_full_labels_15pct.png",
+            "atlasLevel": "ARA 93"
+        },
+        {
+            "index": 94,
+            "href": "/static/ara/ARA-Coronal-094_full_labels_15pct.png",
+            "atlasLevel": "ARA 94"
+        },
+        {
+            "index": 95,
+            "href": "/static/ara/ARA-Coronal-095_full_labels_15pct.png",
+            "atlasLevel": "ARA 95"
+        },
+        {
+            "index": 96,
+            "href": "/static/ara/ARA-Coronal-096_full_labels_15pct.png",
+            "atlasLevel": "ARA 96"
+        },
+        {
+            "index": 97,
+            "href": "/static/ara/ARA-Coronal-097_full_labels_15pct.png",
+            "atlasLevel": "ARA 97"
+        },
+        {
+            "index": 98,
+            "href": "/static/ara/ARA-Coronal-098_full_labels_15pct.png",
+            "atlasLevel": "ARA 98"
+        },
+        {
+            "index": 99,
+            "href": "/static/ara/ARA-Coronal-099_full_labels_15pct.png",
+            "atlasLevel": "ARA 99"
+        },
+        {
+            "index": 100,
+            "href": "/static/ara/ARA-Coronal-100_full_labels_15pct.png",
+            "atlasLevel": "ARA 100"
+        },
+        {
+            "index": 101,
+            "href": "/static/ara/ARA-Coronal-101_full_labels_15pct.png",
+            "atlasLevel": "ARA 101"
+        },
+        {
+            "index": 102,
+            "href": "/static/ara/ARA-Coronal-102_full_labels_15pct.png",
+            "atlasLevel": "ARA 102"
+        },
+        {
+            "index": 103,
+            "href": "/static/ara/ARA-Coronal-103_full_labels_15pct.png",
+            "atlasLevel": "ARA 103"
+        },
+        {
+            "index": 104,
+            "href": "/static/ara/ARA-Coronal-104_full_labels_15pct.png",
+            "atlasLevel": "ARA 104"
+        },
+        {
+            "index": 105,
+            "href": "/static/ara/ARA-Coronal-105_full_labels_15pct.png",
+            "atlasLevel": "ARA 105"
+        },
+        {
+            "index": 106,
+            "href": "/static/ara/ARA-Coronal-106_full_labels_15pct.png",
+            "atlasLevel": "ARA 106"
+        },
+        {
+            "index": 107,
+            "href": "/static/ara/ARA-Coronal-107_full_labels_15pct.png",
+            "atlasLevel": "ARA 107"
+        },
+        {
+            "index": 108,
+            "href": "/static/ara/ARA-Coronal-108_full_labels_15pct.png",
+            "atlasLevel": "ARA 108"
+        },
+        {
+            "index": 109,
+            "href": "/static/ara/ARA-Coronal-109_full_labels_15pct.png",
+            "atlasLevel": "ARA 109"
+        },
+        {
+            "index": 110,
+            "href": "/static/ara/ARA-Coronal-110_full_labels_15pct.png",
+            "atlasLevel": "ARA 110"
+        },
+        {
+            "index": 111,
+            "href": "/static/ara/ARA-Coronal-111_full_labels_15pct.png",
+            "atlasLevel": "ARA 111"
+        },
+        {
+            "index": 112,
+            "href": "/static/ara/ARA-Coronal-112_full_labels_15pct.png",
+            "atlasLevel": "ARA 112"
+        },
+        {
+            "index": 113,
+            "href": "/static/ara/ARA-Coronal-113_full_labels_15pct.png",
+            "atlasLevel": "ARA 113"
+        },
+        {
+            "index": 114,
+            "href": "/static/ara/ARA-Coronal-114_full_labels_15pct.png",
+            "atlasLevel": "ARA 114"
+        },
+        {
+            "index": 115,
+            "href": "/static/ara/ARA-Coronal-115_full_labels_15pct.png",
+            "atlasLevel": "ARA 115"
+        },
+        {
+            "index": 116,
+            "href": "/static/ara/ARA-Coronal-116_full_labels_15pct.png",
+            "atlasLevel": "ARA 116"
+        },
+        {
+            "index": 117,
+            "href": "/static/ara/ARA-Coronal-117_full_labels_15pct.png",
+            "atlasLevel": "ARA 117"
+        },
+        {
+            "index": 118,
+            "href": "/static/ara/ARA-Coronal-118_full_labels_15pct.png",
+            "atlasLevel": "ARA 118"
+        },
+        {
+            "index": 119,
+            "href": "/static/ara/ARA-Coronal-119_full_labels_15pct.png",
+            "atlasLevel": "ARA 119"
+        },
+        {
+            "index": 120,
+            "href": "/static/ara/ARA-Coronal-120_full_labels_15pct.png",
+            "atlasLevel": "ARA 120"
+        },
+        {
+            "index": 121,
+            "href": "/static/ara/ARA-Coronal-121_full_labels_15pct.png",
+            "atlasLevel": "ARA 121"
+        },
+        {
+            "index": 122,
+            "href": "/static/ara/ARA-Coronal-122_full_labels_15pct.png",
+            "atlasLevel": "ARA 122"
+        },
+        {
+            "index": 123,
+            "href": "/static/ara/ARA-Coronal-123_full_labels_15pct.png",
+            "atlasLevel": "ARA 123"
+        },
+        {
+            "index": 124,
+            "href": "/static/ara/ARA-Coronal-124_full_labels_15pct.png",
+            "atlasLevel": "ARA 124"
+        },
+        {
+            "index": 125,
+            "href": "/static/ara/ARA-Coronal-125_full_labels_15pct.png",
+            "atlasLevel": "ARA 125"
+        },
+        {
+            "index": 126,
+            "href": "/static/ara/ARA-Coronal-126_full_labels_15pct.png",
+            "atlasLevel": "ARA 126"
+        },
+        {
+            "index": 127,
+            "href": "/static/ara/ARA-Coronal-127_full_labels_15pct.png",
+            "atlasLevel": "ARA 127"
+        },
+        {
+            "index": 128,
+            "href": "/static/ara/ARA-Coronal-128_full_labels_15pct.png",
+            "atlasLevel": "ARA 128"
+        },
+        {
+            "index": 129,
+            "href": "/static/ara/ARA-Coronal-129_full_labels_15pct.png",
+            "atlasLevel": "ARA 129"
+        },
+        {
+            "index": 130,
+            "href": "/static/ara/ARA-Coronal-130_full_labels_15pct.png",
+            "atlasLevel": "ARA 130"
+        },
+        {
+            "index": 131,
+            "href": "/static/ara/ARA-Coronal-131_full_labels_15pct.png",
+            "atlasLevel": "ARA 131"
+        },
+        {
+            "index": 132,
+            "href": "/static/ara/ARA-Coronal-132_full_labels_15pct.png",
+            "atlasLevel": "ARA 132"
+        }
+    ]
+}
