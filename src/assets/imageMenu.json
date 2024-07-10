@@ -1,0 +1,144 @@
+{
+    "projections": [
+        {
+            "label": "Anterograde",
+            "class": "anterograde",
+            "regions": [
+                {
+                    "class": "SW110614-01B-ACAd/2-phal",
+                    "label": "ACAd1"
+                },
+                {
+                    "class": "SW170420-03A-ACAd/4-aav-rfp",
+                    "label": "ACAd2"
+                },
+                {
+                    "class": "SW170420-04A-ACAd/4-aav-rfp",
+                    "label": "ACAd3"
+                },
+                {
+                    "class": "SW110321-04B-ACAv/2-phal",
+                    "label": "ACAv1"
+                },
+                {
+                    "class": "SW110606-01A-ACAv/2-phal",
+                    "label": "ACAv2"
+                },
+                {
+                    "class": "SW120403-02A-ACAv/2-phal",
+                    "label": "ACAv3"
+                },
+                {
+                    "class": "SW151027-02B-DP/2-phal",
+                    "label": "DPs1"
+                },
+                {
+                    "class": "SW160120-01B-DP/2-phal",
+                    "label": "DPs2"
+                },
+                {
+                    "class": "SW160120-03A-DP/2-phal",
+                    "label": "DPs3"
+                },
+                {
+                    "class": "SW160120-03A-DP/4-aav-rfp",
+                    "label": "DPs4"
+                },
+                {
+                    "class": "SW170420-03A-DP_deep/2-phal",
+                    "label": "DPd1"
+                },
+                {
+                    "class": "SW170420-04A-DP_deep/2-phal",
+                    "label": "DPd2"
+                },
+                {
+                    "class": "SW120404-01A-ILA/2-phal",
+                    "label": "ILA1"
+                },
+                {
+                    "class": "SW120404-02A-ILA/2-phal",
+                    "label": "ILA2"
+                },
+                {
+                    "class": "SW120404-04A-ILA/2-phal",
+                    "label": "ILA3"
+                },
+                {
+                    "class": "SW110613-02B-PL/2-phal",
+                    "label": "PL1"
+                },
+                {
+                    "class": "SW110808-04A-PL/2-phal",
+                    "label": "PL2"
+                },
+                {
+                    "class": "SW120530-03A-PL/2-phal",
+                    "label": "PL3"
+                }
+            ]
+        },
+        {
+            "label": "Retrograde",
+            "class": "retrograde",
+            "regions": [
+                {
+                    "class": "SW110614-01B-ACAd/5-ctb",
+                    "label": "ACAd1"
+                },
+                {
+                    "class": "SW120530-03A-ACAd/3-fg",
+                    "label": "ACAd2"
+                },
+                {
+                    "class": "SW170420-04A-ACAd/3-fg",
+                    "label": "ACAd3"
+                },
+                {
+                    "class": "SW110321-04B-ACAv/5-ctb",
+                    "label": "ACAv1"
+                },
+                {
+                    "class": "SW110606-01A-ACAv/5-ctb",
+                    "label": "ACAv2"
+                },
+                {
+                    "class": "SW120403-02A-ACAv/5-ctb",
+                    "label": "ACAv3"
+                },
+                {
+                    "class": "SW151027-02B-DP/4-ctb",
+                    "label": "DPs1"
+                },
+                {
+                    "class": "SW160120-01B-DP/5-ctb",
+                    "label": "DPs2"
+                },
+                {
+                    "class": "SW160120-03A-DP/5-ctb",
+                    "label": "DPs3"
+                },
+                {
+                    "class": "SW170420-04A-DP_deep/5-ctb",
+                    "label": "DPd1"
+                },
+                {
+                    "class": "SW120404-02A-ILA/5-ctb",
+                    "label": "ILA1"
+                },
+                {
+                    "class": "SW120404-04A-ILA/5-ctb",
+                    "label": "ILA2"
+                },
+                {
+                    "class": "SW120404-01A-PL/3-fg",
+                    "label": "PL1"
+                },
+                {
+                    "class": "SW120404-02A-PL/3-fg",
+                    "label": "PL2"
+                }
+            ]
+        }
+    ]
+}

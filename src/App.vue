@@ -1,13 +1,15 @@
 <script>
 import ImageMenu from './components/ImageMenu.vue'
 import Carousel3d from './components/Carousel3d'
+import BrainHeader from './components/Header'
 import imageData from './assets/data.json'
 
 export default {
   name : 'app',
   components: {
     ImageMenu,
-    Carousel3d
+    Carousel3d,
+    BrainHeader
   },
   methods: {
     pickedImages(picked) {
@@ -24,6 +26,7 @@ export default {
 
 <template>
   <div id="app">
+      <brain-header />
       <image-menu @picked-images="pickedImages" />
       <carousel3d :slides="images" />
   </div>

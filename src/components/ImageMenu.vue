@@ -1,35 +1,36 @@
 <script>
+import jsonData from '@/assets/imageMenu.json';
+
 export default {
   data () {
     return {
       picked: 'image1',
-      projections: [{label:'Anterograde', class:'anterograde'},{label:'Retrograde', class:'retrograde'}],
-      regions: [{region:[{class:'blaam', label:'BLA.am'},{class:'blaal', label:'BLA.al'},{class:'blaac', label:'BLA.ac'}]},
-                {region:[{class:'blap', label:'BLAp'},{class:'blaal', label:'BLA.al'}]},
-                {region:[{class:'blav', label:'BLAv'},{class:'la', label:'LA'},{class:'bmap', label:'BMAp'}]}]
+      "projections": []
     }
   },
   methods: {
     change() {
-      this.$emit('picked-images',this.picked);
+      this.$emit('picked-images', this.picked);
     }
+  },
+  mounted() {
+    this.projections = jsonData.projections;
   }
 };
 </script>
 
 <template>
   <div id="blaRadios" class="funkyradio col-xs-2">
-    <div :class="projection.class" v-for="(projection, i) in projections">
+    <div :class="projection.class" v-for="(projection, i) in projections" :key="i">
       <span>{{projection.label}}</span>
-      <div class="funkyradio-default" v-for="(reg, j) in regions">
-          <input type=radio :id="((i*3)+1)+j" :value="'image'+(((i*3)+1)+j)" v-model="picked" v-on:change="change()">
-          <label :for="((i*3)+1)+j" style="margin-top: 1.4em;">
-            <span :class="rg.class" v-for="(rg, k) in reg.region">{{rg.label}}<span v-if="k != Object.keys(reg.region).length - 1">, </span></span>
-          </label>
+      <div class="funkyradio-default" v-for="(reg, j) in projection.regions" :key="j">
+        <input type="radio" :id="((i*3)+1)+j" :value="reg.class" v-model="picked" v-on:change="change()">
+        <label :for="((i*3)+1)+j" style="margin-top: 1.4em;">
+          <span :class="reg.class">{{reg.label}}</span>
+        </label>
       </div>
+    </div>
   </div>
-</div>
-
 </template>
 
 <style scoped>
