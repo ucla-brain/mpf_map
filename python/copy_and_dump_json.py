@@ -79,7 +79,8 @@ def generate_json(output_folder, json_file_path):
                     image_list.append({
                         "index": int(ara_level),
                         "href": href,
-                        "atlasLevel": f'ARA {ara_level}',
+                        "atlasHref": f'/static/ara/ARA-Coronal-{ara_level:03}_full_labels_15pct.png',
+                        "atlasLevel": f'ARA {ara_level:03}',
                         "folderName": folder_name,
                         "tracer": tracer,
                         "tracerCategory": tracerCategory[tracer],
@@ -93,8 +94,8 @@ def generate_json(output_folder, json_file_path):
             if ara_level not in existing_ara_levels:
                 image_list.append({
                     "index": ara_level,
-                    "href": "https://via.placeholder.com/250/000000/FFFFFF?text=No+Data",
-                    "atlasLevel": f'ARA {ara_level}',
+                    "href": f'/static/ara/ARA-Coronal-{ara_level:03}_full_labels_15pct_shadow.png',
+                    "atlasLevel": f'ARA {ara_level:03}',
                     "folderName": folder_name,
                     "tracer": '',
                     "tracerCategory": '',
@@ -103,8 +104,8 @@ def generate_json(output_folder, json_file_path):
         sorted_image_list = sorted(image_list, key=lambda x: x["index"])
 
         if sorted_image_list and folder_name != '':
-            # data[folder_name] = sorted_image_list            
-            data[f'image{index}'] = sorted_image_list            
+            data[folder_name] = sorted_image_list            
+            # data[f'image{index}'] = sorted_image_list            
             # index = index + 1
 
 
