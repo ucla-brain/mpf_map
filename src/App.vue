@@ -18,7 +18,7 @@ export default {
   },
   data () {
     return {
-        "images": imageData['image1']
+        "images": imageData['SW110614-01B-ACAd/2-phal']
     }
   }
 }

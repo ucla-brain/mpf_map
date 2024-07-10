@@ -4,7 +4,7 @@ import jsonData from '@/assets/imageMenu.json';
 export default {
   data () {
     return {
-      picked: 'image1',
+      picked: 'SW110614-01B-ACAd/2-phal',
       "projections": []
     }
   },
