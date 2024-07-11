@@ -35,7 +35,9 @@ export default {
 <style scoped>
   #blaRadios {
     position: relative;
-    top: 205px;
+    top: 100;
+    height: 800px;
+    overflow-y: auto;
   }
 
   .funkyradio input[type="radio"]:empty ~ label, .funkyradio input[type="checkbox"]:empty ~ label {
