@@ -115,3 +115,28 @@ python apply_shadow_mask.py /Users/seitayamashita/Documents/git_next/mpf_map/sta
 ```
 python generate_image_menu_gui_data.py /Users/seitayamashita/Documents/git_next/mpf_map/static/images/orders.json /Users/seitayamashita/Documents/git_next/mpf_map/src/assets/
 ```
+
+----
+
+## Docker
+
+0. Build
+
+```
+% npm run build
+```
+
+1. Start Docker container
+```
+% sudo docker-compose up
+```
+
+2. Access http://localhost:8082/
+
+3. Password protection
+
+```
+htpasswd -c ./nginx/.htpasswd guest
+```
+
+Pass: mpfbrainmap710
