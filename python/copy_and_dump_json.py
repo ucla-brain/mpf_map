@@ -91,17 +91,17 @@ def generate_json(output_folder, json_file_path):
 
 
         # Adding blank data for missing ARA levels (TODO: This will add more images which stresses app loading...)
-        # for ara_level in range(1, 133):
-        #     if ara_level not in existing_ara_levels:
-        #         image_list.append({
-        #             "index": ara_level,
-        #             "href": f'/mpf/static/ara/ARA-Coronal-{ara_level:03}_full_labels_15pct_shadow.png',
-        #             "atlasLevel": f'ARA {ara_level:03}',
-        #             "folderName": folder_name,
-        #             "tracer": '',
-        #             "tracerCategory": '',
-        #             "injectionSite": ''
-        #         })
+        for ara_level in range(1, 133):
+            if ara_level not in existing_ara_levels:
+                image_list.append({
+                    "index": ara_level,
+                    "href": f'/mpf/static/ara/ARA-Coronal-{ara_level:03}_full_labels_15pct_shadow.png',
+                    "atlasLevel": f'ARA {ara_level:03}',
+                    "folderName": folder_name,
+                    "tracer": '',
+                    "tracerCategory": '',
+                    "injectionSite": ''
+                })
         sorted_image_list = sorted(image_list, key=lambda x: x["index"])
 
         if sorted_image_list and folder_name != '':
@@ -122,7 +122,7 @@ if __name__ == "__main__":
         input_folder = sys.argv[1]
         output_folder = sys.argv[2]
         if os.path.isdir(input_folder):
-            copy_png_images(input_folder, output_folder)
+            # copy_png_images(input_folder, output_folder)
             json_file_path = os.path.join(output_folder, 'images.json')
             generate_json(output_folder, json_file_path)
         else:
