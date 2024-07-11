@@ -79,7 +79,7 @@ def generate_json(output_folder, json_file_path):
                     image_list.append({
                         "index": int(ara_level),
                         "href": href,
-                        "atlasHref": f'/static/ara/ARA-Coronal-{ara_level:03}_full_labels_15pct.png',
+                        "atlasHref": f'/mpf/static/ara/ARA-Coronal-{ara_level:03}_full_labels_15pct.png',
                         "atlasLevel": f'ARA {ara_level:03}',
                         "folderName": folder_name,
                         "tracer": tracer,
@@ -94,7 +94,7 @@ def generate_json(output_folder, json_file_path):
             if ara_level not in existing_ara_levels:
                 image_list.append({
                     "index": ara_level,
-                    "href": f'/static/ara/ARA-Coronal-{ara_level:03}_full_labels_15pct_shadow.png',
+                    "href": f'/mpf/static/ara/ARA-Coronal-{ara_level:03}_full_labels_15pct_shadow.png',
                     "atlasLevel": f'ARA {ara_level:03}',
                     "folderName": folder_name,
                     "tracer": '',
