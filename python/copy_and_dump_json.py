@@ -89,7 +89,7 @@ def generate_json(output_folder, json_file_path):
                     existing_ara_levels.append(int(ara_level))
 
 
-        # Adding blank data for missing ARA levels (TODO: This will add more images which stresses app image loading...)
+        # Adding blank data for missing ARA levels (TODO: This will add more images which stresses app loading...)
         # for ara_level in range(1, 133):
         #     if ara_level not in existing_ara_levels:
         #         image_list.append({
