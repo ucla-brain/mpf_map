@@ -32,7 +32,7 @@
         <carousel-3d ref="blaCarousel" :count="slides.length" :border="0" :perspective="0" :controls-visible="true" :controls-prev-html="'&#10092;'" :controls-next-html="'&#10093;'" :controls-width="30" :controls-height="660" :width="1200" :height="1000" :display="3" :inverseScaling="0" :startIndex="slides.length/2">
             <slide v-for="(slide, i) in slides" :index="i">
                 <img v-bind:src="slide.href" style="position: absolute; top: 0; left: 0; z-index: 1;">
-                <img v-bind:src="slide.atlasHref" style="position: absolute; top: 0; left: 0; z-index: -1;">                
+                <!-- <img v-bind:src="slide.atlasHref" style="position: absolute; top: 0; left: 0; z-index: -1;">                 -->
                 <figcaption>{{slide.atlasLevel}}</figcaption>
             </slide>
         </carousel-3d>

@@ -40,6 +40,7 @@ conda install tqdm
 ```
 python convert_tiff_to_png.py /Users/seitayamashita/Downloads/mpfc_web_image_vis_for_seita
 python resize_png_images.py /Users/seitayamashita/Downloads/mpfc_web_image_vis_for_seita
+python overlay_images.py /Users/seitayamashita/Downloads/mpfc_web_image_vis_for_seita /Users/seitayamashita/Downloads/annotated_bw_atlas
 python copy_and_dump_json.py /Users/seitayamashita/Downloads/mpfc_web_image_vis_for_seita /Users/seitayamashita/Documents/git_next/mpf_map/static/images
 ```
 
@@ -47,8 +48,8 @@ python copy_and_dump_json.py /Users/seitayamashita/Downloads/mpfc_web_image_vis_
 
 ```
 python convert_tiff_to_png.py /Users/seitayamashita/Downloads/annotated_bw_atlas
-python resize_png_images.py /Users/seitayamashita/Downloads/annotated_bw_atlas
-python copy_and_dump_json.py /Users/seitayamashita/Downloads/annotated_bw_atlas /Users/seitayamashita/Documents/git_next/mpf_map/static/ara
+python resize_png_images.py /Users/seitayamashita/Downloads/annotated_bw_atlas 
+#python copy_and_dump_json.py /Users/seitayamashita/Downloads/annotated_bw_atlas /Users/seitayamashita/Documents/git_next/mpf_map/static/ara
 ```
 
 

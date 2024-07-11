@@ -14,7 +14,7 @@ def copy_png_images(input_folder, output_folder):
     png_files = []
     for root, _, files in os.walk(input_folder):
         for file in files:
-            if file.lower().endswith('_15pct.png'):
+            if file.lower().endswith('_overlayed.png'):
                 relative_path = os.path.relpath(root, input_folder)
                 png_files.append((root, file, relative_path))
 
@@ -46,7 +46,8 @@ def generate_json(output_folder, json_file_path):
         tracer = ''
         injectionSite = ''
         for file in files:
-            if file.lower().endswith('_15pct.png'):
+            # if file.lower().endswith('_15pct.png'):            
+            if file.lower().endswith('_overlayed.png'):
 
                 # Extract the matched group
                 match = re.search(r'-Coronal-(\d+)_', file)
@@ -66,20 +67,20 @@ def generate_json(output_folder, json_file_path):
                     filename_parts = file.split('_')
 
                     # tracer
-                    if len(filename_parts) == 8:
+                    if len(filename_parts) == 9:
                         tracer = filename_parts[5]
                         injectionSite = filename_parts[4]
-                    if len(filename_parts) == 9:
+                    if len(filename_parts) == 10:
                         tracer = filename_parts[6]
                         injectionSite = f'{filename_parts[4]}-{filename_parts[5]}'
 
-                    ara_level = filename_parts[-2] if len(filename_parts) >= 2 else ""
+                    ara_level = filename_parts[-3] if len(filename_parts) >= 2 else ""
                     ara_level = ara_level.replace('ara','')
                     href = os.path.join(root, file).replace('/Users/seitayamashita/Documents/git_next/mpf_map','')
                     image_list.append({
                         "index": int(ara_level),
                         "href": f'/mpf{href}',
-                        "atlasHref": f'/mpf/static/ara/ARA-Coronal-{ara_level:03}_full_labels_15pct.png',
+                        # "atlasHref": f'/mpf/static/ara/ARA-Coronal-{ara_level:03}_full_labels_15pct.png',
                         "atlasLevel": f'ARA {ara_level:03}',
                         "folderName": folder_name,
                         "tracer": tracer,
@@ -121,7 +122,7 @@ if __name__ == "__main__":
         input_folder = sys.argv[1]
         output_folder = sys.argv[2]
         if os.path.isdir(input_folder):
-            # copy_png_images(input_folder, output_folder)
+            copy_png_images(input_folder, output_folder)
             json_file_path = os.path.join(output_folder, 'images.json')
             generate_json(output_folder, json_file_path)
         else:
