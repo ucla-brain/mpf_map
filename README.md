@@ -128,6 +128,7 @@ python generate_image_menu_gui_data.py /Users/seitayamashita/Documents/git_next/
 
 1. Start Docker container
 ```
+% sudo docker-compose down -v
 % sudo docker-compose up
 ```
 
