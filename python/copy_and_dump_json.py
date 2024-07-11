@@ -78,7 +78,7 @@ def generate_json(output_folder, json_file_path):
                     href = os.path.join(root, file).replace('/Users/seitayamashita/Documents/git_next/mpf_map','')
                     image_list.append({
                         "index": int(ara_level),
-                        "href": href,
+                        "href": f'/mpf{href}',
                         "atlasHref": f'/mpf/static/ara/ARA-Coronal-{ara_level:03}_full_labels_15pct.png',
                         "atlasLevel": f'ARA {ara_level:03}',
                         "folderName": folder_name,
