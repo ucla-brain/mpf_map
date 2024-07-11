@@ -122,7 +122,7 @@ if __name__ == "__main__":
         input_folder = sys.argv[1]
         output_folder = sys.argv[2]
         if os.path.isdir(input_folder):
-            # copy_png_images(input_folder, output_folder)
+            copy_png_images(input_folder, output_folder)
             json_file_path = os.path.join(output_folder, 'images.json')
             generate_json(output_folder, json_file_path)
         else:

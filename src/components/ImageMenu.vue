@@ -9,6 +9,13 @@ export default {
     }
   },
   methods: {
+    computeId(i, j) {
+      let count = 0;
+      for (let k = 0; k < i; k++) {
+        count += this.projections[k].regions.length;
+      }
+      return count + j + 1;
+    },    
     change() {
       this.$emit('picked-images', this.picked);
     }
@@ -24,8 +31,8 @@ export default {
     <div :class="projection.class" v-for="(projection, i) in projections" :key="i">
       <span>{{projection.label}}</span>
       <div class="funkyradio-default" v-for="(reg, j) in projection.regions" :key="j">
-        <input type="radio" :id="((i*3)+1)+j" :value="reg.class" v-model="picked" v-on:change="change()">
-        <label :for="((i*3)+1)+j" style="margin-top: 1.4em;">
+        <input type="radio" :id="computeId(i, j)" :value="reg.class" v-model="picked" v-on:change="change()">
+        <label :for="computeId(i, j)" style="margin-top: 1.4em;">
           <span :class="reg.class">{{reg.label}}</span>
         </label>
       </div>
