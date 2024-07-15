@@ -24,6 +24,11 @@ conda install Pillow
 conda install tqdm
 ```
 
+2-0. Additional steps for removing black border from identified image (If exceptional images are identified.)
+
+ `%python remove_black_border.py /Users/seitayamashita/Downloads/mpfc_web_image_vis_for_seita/SW120403-02A-ACAv/2-phal/SW120403-02A_2_10_ch2_ACAv_phal_ara075.tif /Users/seitayamashita/Downloads/mpfc_web_image_vis_for_seita/SW120403-02A-ACAv/2-phal/SW120403-02A_2_10_ch2_ACAv_phal_ara075.tif`
+
+
 2. Convert images to PNG file format
 
 `% python convert_tiff_to_png.py /Users/seitayamashita/Downloads/mpfc_web_image_vis_for_seita`
