@@ -24,10 +24,6 @@ conda install Pillow
 conda install tqdm
 ```
 
-2-0. Additional steps for removing black border from identified image (If exceptional images are identified.)
-
- `%python remove_black_border.py /Users/seitayamashita/Downloads/mpfc_web_image_vis_for_seita/SW120403-02A-ACAv/2-phal/SW120403-02A_2_10_ch2_ACAv_phal_ara075.tif /Users/seitayamashita/Downloads/mpfc_web_image_vis_for_seita/SW120403-02A-ACAv/2-phal/SW120403-02A_2_10_ch2_ACAv_phal_ara075.tif`
-
 
 2. Convert images to PNG file format
 
@@ -56,6 +52,19 @@ python convert_tiff_to_png.py /Users/seitayamashita/Downloads/annotated_bw_atlas
 python resize_png_images.py /Users/seitayamashita/Downloads/annotated_bw_atlas 
 #python copy_and_dump_json.py /Users/seitayamashita/Downloads/annotated_bw_atlas /Users/seitayamashita/Documents/git_next/mpf_map/static/ara
 ```
+
+## Exceptional image which contain a border image
+
+
+1. Remove a border line
+ `% python remove_black_border.py /Users/seitayamashita/Downloads/mpfc_web_image_vis_for_seita/SW120403-02A-ACAv/2-phal/SW120403-02A_2_10_ch2_ACAv_phal_ara075.tif /Users/seitayamashita/Downloads/mpfc_web_image_vis_for_seita/SW120403-02A-ACAv/2-phal/SW120403-02A_2_10_ch2_ACAv_phal_ara075.tif`
+
+2. Convert a TIFF image to PNG file format 
+`% python convert_tiff_to_png.py -i /Users/seitayamashita/Downloads/mpfc_web_image_vis_for_seita/SW120403-02A-ACAv/2-phal/SW120403-02A_2_10_ch2_ACAv_phal_ara075.tif -o /Users/seitayamashita/Downloads/mpfc_web_image_vis_for_seita/SW120403-02A-ACAv/2-phal/SW120403-02A_2_10_ch2_ACAv_phal_ara075.png`
+
+3. Resize PNG image
+4. Copy images and dump a json file
+
 
 
 ## Ontology
