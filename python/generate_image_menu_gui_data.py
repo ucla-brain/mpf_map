@@ -31,7 +31,8 @@ def convert_json(input_data):
 
             region_count[region] += 1
             region_label = f"{region}{region_count[region]}"
-            regions.append({"class": entry, "label": region_label})
+            # regions.append({"class": entry, "label": region_label})
+            regions.append({"class": entry, "label": entry})            
 
         return {
             "label": label,

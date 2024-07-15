@@ -103,6 +103,17 @@ DP is DPs
 deep is DPd
 ```
 
+## Color codes for image tinting
+
+```
+ILA: 56, 127, 185
+PL: 255, 127, 0
+DPs: 228, 26, 28
+DPd: 76, 175, 74
+ACAd: 166, 86, 41
+ACAv: 152, 79, 163
+```
+
 ## Shadow mask on ARA
 
 For not available ARA levels, place holder images are needed.  Create masked shadow images from ARA images.
