@@ -53,7 +53,7 @@ python resize_png_images.py /Users/seitayamashita/Downloads/annotated_bw_atlas
 #python copy_and_dump_json.py /Users/seitayamashita/Downloads/annotated_bw_atlas /Users/seitayamashita/Documents/git_next/mpf_map/static/ara
 ```
 
-## Exceptional image which contain a border image
+## Exceptional image which contains a border line and how to remove it
 
 
 1. Remove a border line
