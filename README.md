@@ -138,6 +138,8 @@ python apply_shadow_mask.py /Users/seitayamashita/Documents/git_next/mpf_map/sta
 
 ## Image Menu GUI json
 
+You would need to run this to update the `imageMenu.json` used in the `ImageMenu.vue`.
+
 ```
 python generate_image_menu_gui_data.py /Users/seitayamashita/Documents/git_next/mpf_map/static/images/orders.json /Users/seitayamashita/Documents/git_next/mpf_map/src/assets/
 ```
