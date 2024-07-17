@@ -66,6 +66,20 @@ python resize_png_images.py /Users/seitayamashita/Downloads/annotated_bw_atlas
 4. Copy images and dump a json file
 
 
+## Retrograde images and regenerate cell segmentations from degeneraged images
+
+Retrograde images depends on the cell size of the cell center.  The degenerated images provided are too small for visualization.  Run the following script to regenerate retrograde images with larger pixel size.
+
+1. Create a conda environment to use Outspector.
+
+```
+conda create -f /ifshome/syamashi/Documents/gittest/outspector/src/grid_env/conda_grid.yml 
+```
+
+```
+% python batch_cell_segmentation.py /panfs/dong/mpf_map/originals/ /panfs/dong/mpf_map/output/
+```
+
 
 ## Ontology
 

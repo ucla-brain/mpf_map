@@ -2,6 +2,13 @@ import os
 import sys
 import subprocess
 from tqdm import tqdm
+import cv2
+
+# outspector module
+external_repo_path = '/ifshome/syamashi/Documents/gittest/outspector/src/'
+sys.path.append(external_repo_path)
+
+from cell_segmentation import CellSegmentation
 
 # List of partial folder names of retrogrades
 partial_folder_names = [
@@ -27,15 +34,14 @@ def should_process(file_path, partial_folder_names):
             return True
     return False
 
-# python batch_convert.py <input_dir> <output_dir> <script_path>
+# python batch_cell_segmentation.py /panfs/dong/mpf_map/originals/ /panfs/dong/mpf_map/output/
 def main():
-    if len(sys.argv) != 4:
-        print("Usage: python batch_convert.py <input_dir> <output_dir> <script_path>")
+    if len(sys.argv) != 3:
+        print("Usage: python batch_cell_segmentation.py <input_dir> <output_dir>")        
         sys.exit(1)
 
     input_dir = sys.argv[1]
     output_dir = sys.argv[2]
-    script_path = sys.argv[3]
 
     image_files = []
     for root, _, files in os.walk(input_dir):
@@ -52,10 +58,23 @@ def main():
             output_dir_path = os.path.dirname(output_path)
             if not os.path.exists(output_dir_path):
                 os.makedirs(output_dir_path)
-            
-            command = [sys.executable, script_path, file, output_path]
-            subprocess.run(command, check=True)
+
+            # Reads image, and invert pixel intensity: 255 - image
+            image = CellSegmentation.load_img(file)
+            # Draw circle centered at each single pixel. `r` controls radius.
+            reconstructed_image = CellSegmentation.reconstruct_degenerated(image, r=15)
+
+            # Invert the reconstructed image (black/white)
+            inverted_image = cv2.bitwise_not(reconstructed_image)
+
+            # Save image. The image is gray (single channel), white pixels are cells.
+            # cv2.imwrite(output_path, reconstructed_image)
+            # Save the inverted image
+            cv2.imwrite(output_path, inverted_image)
+
             pbar.update(1)
+
+
 
 if __name__ == "__main__":
     main()
