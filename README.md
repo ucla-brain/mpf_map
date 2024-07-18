@@ -50,9 +50,9 @@ on Panfs
 python convert_tiff_to_png.py /panfs/dong/mpf_map/output
 python resize_png_images.py /panfs/dong/mpf_map/output
 python overlay_images.py /panfs/dong/mpf_map/output /panfs/dong/mpf_map/annotated_bw_atlas
-# Better to uncomment the json dump part if only for retrograde images
-python copy_and_dump_json.py /panfs/dong/mpf_map/output /ifshome/syamashi/Documents/git/mpf_map/static/images
 ```
+And copied the images over locally to see if the changes are reflected.
+
 
 5. ARA images
 
