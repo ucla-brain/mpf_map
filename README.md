@@ -45,6 +45,15 @@ python overlay_images.py /Users/seitayamashita/Downloads/mpfc_web_image_vis_for_
 python copy_and_dump_json.py /Users/seitayamashita/Downloads/mpfc_web_image_vis_for_seita /Users/seitayamashita/Documents/git_next/mpf_map/static/images
 ```
 
+on Panfs
+```
+python convert_tiff_to_png.py /panfs/dong/mpf_map/output
+python resize_png_images.py /panfs/dong/mpf_map/output
+python overlay_images.py /panfs/dong/mpf_map/output /panfs/dong/mpf_map/annotated_bw_atlas
+```
+And copied the images over locally to see if the changes are reflected.
+
+
 5. ARA images
 
 ```
