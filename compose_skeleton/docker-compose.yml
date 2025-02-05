@@ -6,6 +6,7 @@ networks:
 services:
   nginx:
     container_name: mfp-map
+    restart: always    
     image: nginx:latest  # Use the official nginx image from Docker Hub
     ports:
       - "8082:80"
