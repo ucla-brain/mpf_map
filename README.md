@@ -192,3 +192,12 @@ htpasswd -c ./nginx/.htpasswd guest
 ```
 
 Pass: mpfbrainmap710
+
+
+## Contributors
+- Seita Yamashita
+
+[![UCLA B.R.A.I.N.](https://uclabrain.org/wp-content/uploads/2024/12/logo-9-a2small.png)](http://brain.neurobio.ucla.edu/)
+
+[UCLA B.R.A.I.N.](http://brain.neurobio.ucla.edu/)
+
