@@ -185,14 +185,11 @@ python generate_image_menu_gui_data.py /Users/seitayamashita/Documents/git_next/
 
 2. Access http://localhost:8082/
 
-3. Password protection
+3. Password protection (optional)
 
 ```
 htpasswd -c ./nginx/.htpasswd guest
 ```
-
-Pass: mpfbrainmap710
-
 
 ## Contributors
 - Seita Yamashita
@@ -200,4 +197,6 @@ Pass: mpfbrainmap710
 [![UCLA B.R.A.I.N.](https://uclabrain.org/wp-content/uploads/2024/12/logo-9-a2small.png)](http://brain.neurobio.ucla.edu/)
 
 [UCLA B.R.A.I.N.](http://brain.neurobio.ucla.edu/)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
