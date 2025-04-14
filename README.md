@@ -179,8 +179,8 @@ python generate_image_menu_gui_data.py /Users/seitayamashita/Documents/git_next/
 
 1. Start Docker container
 ```
-% sudo docker-compose down -v
-% sudo docker-compose up --build -d
+% docker-compose down -v
+% docker-compose up --build -d
 ```
 
 2. Access http://localhost:8082/
