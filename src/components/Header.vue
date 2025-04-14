@@ -9,7 +9,7 @@
 
 <template>
       <div>
-          <a href="//brain.neurobio.ucla.edu"><img src="https://brain.neurobio.ucla.edu/_assets/ucla-brain-logo.svg"></a>
+          <a href="//brain.neurobio.ucla.edu"><img src="https://uclabrain.org/wp-content/uploads/2024/12/ucla-brain-logo.svg"></a>
       </div>      
 </template>
 
