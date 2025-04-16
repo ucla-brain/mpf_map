@@ -1,5 +1,7 @@
 # MPF Online Map
 
+A single-page application for visualizing the projection patterns of anterograde and retrograde tracing in the MPF.
+
 ## Build Setup
 
 ``` bash
